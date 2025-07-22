@@ -198,7 +198,7 @@
 <body>
   <div class="window">
     <div class="titlebar">
-      <span>mIRC - [#retrochat]</span>
+      <span>mIRC - [#labadiena]</span>
       <div class="window-controls">
         <div class="window-btn" title="Minimize">&#8211;</div>
         <div class="window-btn" title="Maximize">&#9723;</div>
@@ -251,9 +251,9 @@
       const msg = document.createElement('div');
       msg.style.marginBottom = '2px';
       if (opts.join) {
-        msg.innerHTML = `<span style='color:#008000;'>--- ${nick} has joined #retrochat</span>`;
+        msg.innerHTML = `<span style='color:#008000;'>--- ${nick} has joined #labadiena</span>`;
       } else if (opts.part) {
-        msg.innerHTML = `<span style='color:#800000;'>--- ${nick} has left #retrochat</span>`;
+        msg.innerHTML = `<span style='color:#800000;'>--- ${nick} has left #labadiena</span>`;
       } else {
         msg.innerHTML = `<span style='color:#888;'>${timestamp()}</span> <span style='color:#000080;font-weight:bold;'>${nick}</span>: <span>${text}</span>`;
       }
